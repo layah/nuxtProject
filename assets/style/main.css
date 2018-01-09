@@ -1,0 +1,22 @@
+.flex, .flex-start, .flex-center, .flex-between {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex: 1 1 auto;
+}
+
+/*# sourceMappingURL=main.css.map */

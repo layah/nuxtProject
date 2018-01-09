@@ -1,0 +1,28 @@
+$flexLeft:flex-start;
+$space-between:space-between;
+$space-around:space-around;
+$center:center;
+$stretch:stretch;
+.flex{
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+}
+.flex-start{
+  @extend .flex;
+  align-items:$stretch;
+  justify-content: $flexLeft;
+}
+.flex-center{
+  @extend .flex;
+  align-items:$center;
+  justify-content: $center;
+}
+.flex-between{
+  @extend .flex;
+  align-items:$stretch;
+  justify-content: $space-between;
+}
+.flex-item{
+  flex: 1 1 auto;
+}
