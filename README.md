@@ -19,4 +19,4 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+具体api请详见官网 [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
